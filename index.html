@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>KellyWood Builder</title>
+
+    <!--link external css -->
+    <link rel="stylesheet" href="./assets/styles/style.css" />
+    <!-- icons cdn -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <header class="flex">
+      <!-- LOGO -->
+      <div>
+        <img src="./assets/images/logo.jpg" alt="Logo" />
+      </div>
+      <!-- NAVIGATION -->
+      <nav class="w100">
+        <div class="w-100">
+          <!-- CONTACT INFORMATION -->
+          <ul class="flex justifyContent-around p5">
+            <li class="flex alignItems-center borderRight">
+              <i class="fa fa-home color-primary" aria-hidden="true"></i>
+              <h5>616 S. Jackson Amarillo, TX 79101</h5>
+            </li>
+            <li class="flex alignItems-center borderRight">
+              <i class="fa fa-envelope color-primary" aria-hidden="true"></i>
+              <h5>info@kellywood.com</h5>
+            </li>
+            <li class="flex alignItems-center">
+              <i class="fa fa-phone color-primary" aria-hidden="true"></i>
+              <h5>806.379.9696</h5>
+            </li>
+          </ul>
+          <!-- BUTTON NAVIGATION -->
+          <div class="button-parent flex justifyContent-center">
+            <button class="btn btn-active">Home</button>
+            <button class="btn">About Us</button>
+            <button class="btn">Services</button>
+            <button class="btn">Employment</button>
+            <button class="btn">Contact Us</button>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <!-- CAROUSEL -->
+      <section>
+        <img
+          src="./assets/images/carousel.jpg"
+          alt="carousel"
+          width='100%'
+        />
+      </section>
+      <!-- DESCRIPTIONS -->
+      <section class="flex">
+          <div class="w75 p5 m-1">
+            <!-- Images -->
+          <div class="flex justifyContent-between">
+            <img src="./assets/images/healtcare.jpg" alt='healthCare'/>
+            <img src="./assets/images/general-1.jpg" alt='general'/>
+            <img src="./assets/images/retail.jpg" alt='retail'/>
+          </div>
+          <div>
+            <h4>
+              Welcome to <span class="color-primary">Kelly Wood Builder</span>
+            </h4>
+            <hr />
+            <p>
+              Kelly Wood Builder is a General Contractor founded in Amarillo,
+              Texas and now with offices in McKinney, Texas. We operated
+              throughout the Midwest region. Started in 1977, we have to
+              specialize in healthcare and retail construction, but remain very
+              active in all types of projects. Out alliances with multiple
+              architectural firms have paved the way to success in Design/Build,
+              Construction Management, and fast Track construction.
+            </p>
+            <div class="flex justifyContent-end">
+              <a class="color-primary me-1" href="#"
+                ><strong>read more about us</strong>
+                <i
+                  class="fa fa-caret-right color-primary"
+                  aria-hidden="true"
+                ></i
+              ></a>
+            </div>
+          </div>
+        </div>
+        <!-- Contact Form -->
+        <div class="contact w25 p5">
+          <div class="flex alignItems-center">
+            <i
+              class="fa fa-users fa-2x color-primary pr4"
+              aria-hidden="true"
+            ></i>
+            <h2 class="color-primary">Contact Form</h2>
+          </div>
+
+          <form class="flex flexCol">
+            <input class="mb3" type="text" placeholder="Name:" />
+            <input class="mb3" type="email" placeholder="Email:" />
+            <textarea
+              class="mb3"
+              cols="4"
+              rows="5"
+              placeholder="Messages:"
+            ></textarea>
+            <div class="w100 flex justifyContent-end flex">
+              <button class="btn-small" type="submit">
+                SEND <i class="fa fa-caret-right" aria-hidden="true"></i>
+              </button>
+            </div>
+          </form>
+        </div>
+      </section>
+    </main>
+    <footer class="flex mb3">
+      <div class="w50">
+        <div>
+          <ul class="footerNav flex">
+            <li>
+              <a href="#" class="color-primary"><strong>Home</strong></a>
+            </li>
+            <li>
+              <i class="fa fa-circle me-1" aria-hidden="true"></i>
+              <a href="#"><strong>About Us</strong></a>
+            </li>
+            <li>
+              <i class="fa fa-circle me-1" aria-hidden="true"></i>
+              <a href="#"><strong>Services</strong></a>
+            </li>
+            <li>
+              <i class="fa fa-circle me-1" aria-hidden="true"></i>
+              <a href="#"><strong>Employment</strong></a>
+            </li>
+            <li>
+              <i class="fa fa-circle me-1" aria-hidden="true"></i>
+              <a href="#"><strong>Contact Us</strong></a>
+            </li>
+          </ul>
+          <small>Copy © 2013.Kelly Wood Builder. All Rights Reserved</small>
+        </div>
+      </div>
+      <div class="w50 mt-1 flex justifyContent-end">
+        <small> Dallas Website Design by Dallas Marketing Company Red Spot Design </small>
+      </div>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,155 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+body {
+  background-image: url(../images/kellywoodbuilder2.fw.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 0px 245px;
+}
+
+h5 {
+  margin: 0px 10px;
+}
+
+/* FLEX */
+.flex {
+  display: flex;
+}
+/* FLEX DIRECTION */
+.flexCol {
+  flex-direction: column;
+}
+/* JUSTIFY */
+.justifyContent-end {
+  justify-content: end;
+}
+.justifyContent-center {
+  justify-content: center;
+}
+.justifyContent-around {
+  justify-content: space-around;
+}
+.justifyContent-between {
+  justify-content: space-between;
+}
+/* ALIGNMENT */
+.alignItems-center {
+  align-items: center;
+}
+/* BORDER */
+.borderRight {
+  border-right: 1px solid gray;
+}
+.borderBottom {
+  border-bottom: 1px solid gray;
+}
+/* SIZES */
+.w100 {
+  width: 100%;
+}
+.w75 {
+  width: 75%;
+}
+.w50 {
+  width: 50%;
+}
+.w25 {
+  width: 25%;
+}
+/* BUTTON */
+.button-parent {
+  margin: 10px 0px 0px 0px;
+  column-gap: 15px;
+}
+
+.btn {
+  width: 100px;
+  padding: 8px;
+  color: white;
+  background-color: #3a3a3a;
+  border: 1px solid #3a3a3a;
+  border-radius: 5px;
+}
+.btn-active {
+  background-color: #80fe00;
+  border: 1px solid #80fe00;
+}
+.btn-small {
+  color: white;
+  background-color: #80fe00;
+  border: 1px solid #80fe00;
+  border-radius: 5px;
+  padding: 8px;
+}
+.btn:hover {
+  background-color: #80fe00;
+  border: 1px solid #80fe00;
+}
+
+/* PADDING */
+.p5 {
+  padding: 5px;
+}
+
+.pr4 {
+  padding-right: 5px;
+}
+
+/* MARGIN */
+.mb3 {
+  margin-bottom: 15px;
+}
+.mt-1 {
+  margin-top: 1rem;
+}
+.me-1 {
+  margin-right: 0.5rem;
+}
+.m-1 {
+  margin: 1rem;
+}
+
+.color-primary {
+  color: #136b2f;
+}
+
+textarea {
+  resize: none;
+}
+
+input,
+textarea {
+  padding: 10px;
+  border: 1px solid white;
+  background-color: lightgray;
+}
+
+.contact {
+  margin: 1rem;
+  height: 100%;
+  background-color: #f0f0f0;
+}
+a:hover {
+  color: #136b2f;
+}
+
+li {
+  cursor: pointer;
+}
+
+ul {
+  padding: 0px;
+  margin-bottom: 0px;
+}
+
+a {
+  text-decoration: none;
+  color: #3a3a3a;
+}
+
+.footerNav li {
+  list-style: none;
+  margin-right: 0.5rem;
+}
